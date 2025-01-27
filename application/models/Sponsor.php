@@ -28,9 +28,9 @@
 
         function queryForId($id){
             $this -> db -> where ('IDSponsor', $id);
-            $users= $this -> db -> get('sponsor');
-            if($users -> num_rows() > 0){
-                return $users->row();
+            $sponsor= $this -> db -> get('sponsor');
+            if($sponsor -> num_rows() > 0){
+                return $sponsor->row();
             }else{
                 return false;
             }
