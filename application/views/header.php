@@ -31,6 +31,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo site_url('Sponsors/index'); ?>">Sponsor</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo site_url('Projects/index'); ?>">Projects</a>
+                    </li>
                 </ul>
             </div>
         </div>

@@ -1,7 +1,7 @@
 <h1 class="text-center">List Sponsor</h1>
 <div class="row">
     <div class="col-md-12">
-        <a href="<?php echo site_url('Sponsors/add') ?>" class='btn btn-primary'>Nuevo</a>
+        <a href="<?php echo site_url('Sponsors/add') ?>" class='btn btn-primary'>New</a>
     </div>
 </div>
 
@@ -27,8 +27,8 @@
             <td><?php echo $sponsor -> Phone; ?></td>
             <td><?php echo $sponsor -> RegistrationDate; ?></td>
             <td>
-                <a href="<?php echo site_url('Sponsors/getRegisterById/'.$sponsor->IDSponsor) ?>" class='btn btn-primary'>Editar</a>
-                <a href="<?php echo site_url('Sponsors/delete/'.$sponsor->IDSponsor) ?>" class='btn btn-danger' onclick="return confirm('Are you sure you want to delete this record?')">Eliminar</a>
+                <a href="<?php echo site_url('Sponsors/getRegisterById/'.$sponsor->IDSponsor) ?>" class='btn btn-primary'>Update</a>
+                <a href="<?php echo site_url('Sponsors/delete/'.$sponsor->IDSponsor) ?>" class='btn btn-danger' onclick="return confirm('Are you sure you want to delete this record?')">Delete</a>
             </td>
         </tr>
         <?php endforeach; ?>
